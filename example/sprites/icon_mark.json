@@ -1,0 +1,35 @@
+﻿{"frames": {
+
+"_GitHubMark120pxPlus.png":
+{
+	"frame": {"x":0,"y":0,"w":120,"h":120},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":120},
+	"sourceSize": {"w":120,"h":120}
+},
+"_GitHubMark32px.png":
+{
+	"frame": {"x":64,"y":120,"w":32,"h":32},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":32,"h":32},
+	"sourceSize": {"w":32,"h":32}
+},
+"_GitHubMark64px.png":
+{
+	"frame": {"x":0,"y":120,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":64,"h":64}
+}},
+"meta": {
+	"app": "Adobe Flash Professional",
+	"version": "13.1.0.226",
+	"image": "icon_mark.png",
+	"format": "RGBA8888",
+	"size": {"w":128,"h":190},
+	"scale": "1"
+}
+}

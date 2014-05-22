@@ -1,0 +1,30 @@
+{
+  "name": "tfcsprite",
+  "version": "0.1.0",
+  "description": "convert js file that output by toolkit for createjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atsumo/tfcsprite.git"
+  },
+  "keywords": [
+    "toolkit",
+    "createjs",
+    "sprite",
+    "tfc",
+    "convert"
+  ],
+  "author": "atsumo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atsumo/tfcsprite/issues"
+  },
+  "homepage": "https://github.com/atsumo/tfcsprite",
+  "dependencies": {
+    "commander": "^2.2.0",
+    "lodash": "^2.4.1"
+  }
+}
