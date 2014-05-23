@@ -25,3 +25,5 @@ $ Usage: tfcsprite <file> [options]
 
 
 ### Contributing
+[@miyukiw](https://github.com/miyukiw)
+[@atsumo](https://github.com/atsumo)
