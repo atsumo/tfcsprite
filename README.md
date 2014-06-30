@@ -7,7 +7,7 @@ Toolkit for CreateJSでパブリッシュしたの画像を読み込みをSprite
 nodeで実行しますのでnodeの動く環境が必要です。
 
 ```
-npm install -g atsumo/tfcsprite
+npm install -g tfcsprite
 ```
 
 ### How to use
