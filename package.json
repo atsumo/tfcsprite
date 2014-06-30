@@ -20,6 +20,9 @@
     "convert"
   ],
   "author": "atsumo",
+  "contributors": [
+    "miyukiw"
+  ],
   "license": "MIT",
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
