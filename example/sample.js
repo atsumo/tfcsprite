@@ -9,14 +9,10 @@ lib.properties = {
 	fps: 24,
 	color: "#666666",
 	manifest: [
-		{src:"images/_GitHubMark120pxPlus.png", id:"_GitHubMark120pxPlus"},
-		{src:"images/_GitHubMark32px.png", id:"_GitHubMark32px"},
-		{src:"images/_GitHubMark64px.png", id:"_GitHubMark64px"},
-		{src:"images/_GitHubMarkLight120pxPlus.png", id:"_GitHubMarkLight120pxPlus"},
-		{src:"images/_GitHubMarkLight32px.png", id:"_GitHubMarkLight32px"},
-		{src:"images/_GitHubMarkLight64px.png", id:"_GitHubMarkLight64px"},
-		{src:"images/GitHub_Logo.png", id:"GitHub_Logo"},
-		{src:"images/Octocat.png", id:"Octocat"}
+{src:"./sprites/icon_mark.png", id:"icon_mark"},
+{src:"./sprites/icon_mark_light.png", id:"icon_mark_light"},
+{src:"images/GitHub_Logo.png", id:"GitHub_Logo"},
+{src:"images/Octocat.png", id:"Octocat"}
 	]
 };
 
@@ -87,37 +83,49 @@ p.nominalBounds = new cjs.Rectangle(400,719,1210,940.5);
 
 // symbols:
 (lib._GitHubMark120pxPlus = function() {
-	this.initialize(img._GitHubMark120pxPlus);
+	this.initialize(img.icon_mark);
+this.sourceRect = {x:0, y:0, width:120, height:120};
+
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,120,120);
 
 
 (lib._GitHubMark32px = function() {
-	this.initialize(img._GitHubMark32px);
+	this.initialize(img.icon_mark);
+this.sourceRect = {x:64, y:120, width:32, height:32};
+
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,32,32);
 
 
 (lib._GitHubMark64px = function() {
-	this.initialize(img._GitHubMark64px);
+	this.initialize(img.icon_mark);
+this.sourceRect = {x:0, y:120, width:64, height:64};
+
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,64,64);
 
 
 (lib._GitHubMarkLight120pxPlus = function() {
-	this.initialize(img._GitHubMarkLight120pxPlus);
+	this.initialize(img.icon_mark_light);
+this.sourceRect = {x:0, y:0, width:120, height:120};
+
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,120,120);
 
 
 (lib._GitHubMarkLight32px = function() {
-	this.initialize(img._GitHubMarkLight32px);
+	this.initialize(img.icon_mark_light);
+this.sourceRect = {x:64, y:120, width:32, height:32};
+
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,32,32);
 
 
 (lib._GitHubMarkLight64px = function() {
-	this.initialize(img._GitHubMarkLight64px);
+	this.initialize(img.icon_mark_light);
+this.sourceRect = {x:0, y:120, width:64, height:64};
+
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,64,64);
 

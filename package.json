@@ -1,6 +1,6 @@
 {
   "name": "tfcsprite",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "convert js file that output by toolkit for createjs",
   "bin": {
     "tfcsprite": "./bin/tfcsprite"
@@ -21,6 +21,9 @@
   ],
   "author": "atsumo",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
   "bugs": {
     "url": "https://github.com/atsumo/tfcsprite/issues"
   },
