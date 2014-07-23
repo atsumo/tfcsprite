@@ -23,8 +23,10 @@ $ Usage: tfcsprite <file> [options]
     -p, --prefix <prefix>      image name prefix, default is "_" 
 ```
 ###example
-```cd example```
-```tfcsprite sample.js -r 1 -o sample_10.js -s sprite```
+```
+$ cd example
+$ tfcsprite sample.js -r 1 -o sample_10.js -s sprite
+```
 
 spriteのフォルダに入っているjsonデータの中身をすべてみて、sample.jsのmanifestに定義されているidと照らしあわせて、画像をrectで変換後sample_10.jsに出力します。
 
