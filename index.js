@@ -4,10 +4,9 @@ var PROGRAM_VERSION    = '0.1.1';
 
 var fs = require('fs');
 var path = require('path');
-var program = require('commander');
 var _ = require('lodash');
 
-function TFCSpriteConverter(target, directory, prefix) {
+var TFCSpriteConverter = function (target, directory, prefix) {
   //targetとなるjsのfile
   var source = path.resolve(  process.cwd() + '/', target);
   //spriteのjsonが入っているfolder
@@ -41,7 +40,7 @@ function TFCSpriteConverter(target, directory, prefix) {
   this.directory = directory;
   this.prefix = prefix;
   this.sprites = sprites;
-}
+};
 
 TFCSpriteConverter.prototype.convert = function() {
   var data = this.data;
@@ -163,36 +162,4 @@ TFCSpriteConverter.prototype.convert = function() {
   return result;
 };
 
-
-
-program
-  .version(PROGRAM_VERSION)
-  .usage('<file> [options]')
-  .option('-o, --output <file>', 'convert file name. If empty, override target file')
-  .option('-s, --sprites <directory>', 'sprite file json data directory, default is sprites', 'sprites')
-  .option('-p, --prefix <prefix>', 'image name prefix, default is "_" ', '_')
-  .parse(process.argv);
-
-var target = program.args[0];
-
-if (!target) {
-  program.help();
-  return console.log('should set javascript file name!');
-}
-
-if (program.output) console.log('  - output', program.output);
-if (program.sprites) console.log('  - sprites', program.sprites);
-if (program.sprites) console.log('  - prefix', program.prefix);
-console.log('  - convert', target);
-
-var tfcsprite = new TFCSpriteConverter(target, program.sprites, program.prefix);
-var buffer = tfcsprite.convert();
-var dest = program.output || target;
-
-fs.writeFile(dest, buffer, {encoding: 'utf8'}, function(err) {
-  if (err) {
-    return console.log('failed to write converted source');
-  }
-
-  console.log('Success! converted file create ->', dest);
-})
+module.exports = TFCSpriteConverter;
