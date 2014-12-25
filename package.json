@@ -1,10 +1,11 @@
 {
   "name": "tfcsprite",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "convert js file that output by toolkit for createjs",
   "bin": {
     "tfcsprite": "./bin/tfcsprite"
   },
+  "main": "lib/converter",
   "scripts": {
     "test": "mocha"
   },
