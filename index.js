@@ -1,7 +1,5 @@
 #!/usr/bin/env node
 
-var PROGRAM_VERSION    = '0.1.1';
-
 var fs = require('fs');
 var path = require('path');
 var _ = require('lodash');
