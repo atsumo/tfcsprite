@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
-var PROGRAM_VERSION  = '0.1.1';
+var PROGRAM_VERSION  = require('../package').version;
 
 var cli = require('../lib/cli');
 
