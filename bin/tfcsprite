@@ -1,2 +1,20 @@
 #!/usr/bin/env node
-require('../index.js');
+
+var PROGRAM_VERSION  = '0.1.1';
+
+var cli = require('../lib/cli');
+
+/**
+ * Command line implementation for tfcsprite.
+ */
+var program = require('commander');
+
+program
+    .version(PROGRAM_VERSION)
+    .usage('<file> [options]')
+    .option('-o, --output <file>', 'convert file name. If empty, override target file')
+    .option('-s, --sprites <directory>', 'sprite file json data directory, default is sprites', 'sprites')
+    .option('-p, --prefix <prefix>', 'image name prefix, default is "_" ', '_')
+    .parse(process.argv);
+
+cli(program);
