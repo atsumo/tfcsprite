@@ -21,10 +21,11 @@
     "convert"
   ],
   "author": "atsumo",
-  "contributors": [
-    "miyukiw",
-    "HAKASHUN"
-  ],
+  "contributors": [{
+    "name": "miyukiw"
+  }, {
+    "name: HAKASHUN"
+  }],
   "license": "MIT",
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
