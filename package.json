@@ -34,5 +34,8 @@
   "dependencies": {
     "commander": "^2.2.0",
     "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
   }
 }
