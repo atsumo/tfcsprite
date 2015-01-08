@@ -1,6 +1,6 @@
 {
   "name": "tfcsprite",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "convert js file that output by toolkit for createjs",
   "bin": {
     "tfcsprite": "./bin/tfcsprite"
@@ -21,11 +21,14 @@
     "convert"
   ],
   "author": "atsumo",
-  "contributors": [{
-    "name": "miyukiw"
-  }, {
-    "name": "HAKASHUN"
-  }],
+  "contributors": [
+    {
+      "name": "miyukiw"
+    },
+    {
+      "name": "HAKASHUN"
+    }
+  ],
   "license": "MIT",
   "publishConfig": {
     "registry": "http://registry.npmjs.org/"
@@ -39,8 +42,10 @@
     "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "mocha": "^2.1.0",
+    "gulp": "^3.8.10",
+    "gulp-release-tasks": "0.0.3",
     "istanbul": "*",
+    "mocha": "^2.1.0",
     "should": "~2.1.0"
   }
 }
