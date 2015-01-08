@@ -1,5 +1,4 @@
-tfcsprite
-[![Circle CI](https://circleci.com/gh/atsumo/tfcsprite.svg?style=svg)](https://circleci.com/gh/atsumo/tfcsprite)
+tfcsprite [![Circle CI](https://circleci.com/gh/atsumo/tfcsprite.svg?style=svg)](https://circleci.com/gh/atsumo/tfcsprite)
 =========
 
 Toolkit for CreateJSでパブリッシュしたの画像を読み込みをSpriteSheetに変換します。
