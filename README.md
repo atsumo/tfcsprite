@@ -1,4 +1,5 @@
 tfcsprite
+[![Circle CI](https://circleci.com/gh/atsumo/tfcsprite.svg?style=svg)](https://circleci.com/gh/atsumo/tfcsprite)
 =========
 
 Toolkit for CreateJSでパブリッシュしたの画像を読み込みをSpriteSheetに変換します。
@@ -32,4 +33,5 @@ spriteのフォルダに入っているjsonデータの中身をすべてみて�
 
 ### Contributing
 [@miyukiw](https://github.com/miyukiw)
+[@HAKASHUN](https://github.com/HAKASHUN)
 [@atsumo](https://github.com/atsumo)
