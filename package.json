@@ -7,7 +7,7 @@
   },
   "main": "lib/converter",
   "scripts": {
-    "test": "mocha"
+    "test": "istanbul test _mocha --report html -- test/*.js --reporter spec"
   },
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
   "contributors": [{
     "name": "miyukiw"
   }, {
-    "name: HAKASHUN"
+    "name": "HAKASHUN"
   }],
   "license": "MIT",
   "publishConfig": {
@@ -39,6 +39,8 @@
     "lodash": "^2.4.1"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "istanbul": "*",
+    "should": "~2.1.0"
   }
 }
