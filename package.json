@@ -1,6 +1,6 @@
 {
   "name": "tfcsprite",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "convert js file that output by toolkit for createjs",
   "bin": {
     "tfcsprite": "./bin/tfcsprite"
