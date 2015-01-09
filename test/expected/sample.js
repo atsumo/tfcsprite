@@ -21,7 +21,7 @@ lib.properties = {
 
 
 (lib._a = function() {
-	this.initialize(img.sample);
+	this.initialize(img["sample"]);
 this.sourceRect = {x:0, y:501, width:256, height:256};
 
 }).prototype = p = new cjs.Bitmap();
@@ -29,7 +29,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,256,256);
 
 
 (lib._b = function() {
-	this.initialize(img.sample);
+	this.initialize(img["sample"]);
 this.sourceRect = {x:257, y:501, width:256, height:256};
 
 }).prototype = p = new cjs.Bitmap();
@@ -37,7 +37,7 @@ p.nominalBounds = new cjs.Rectangle(0,0,256,256);
 
 
 (lib._c = function() {
-	this.initialize(img.sample);
+	this.initialize(img["sample"]);
 this.sourceRect = {x:0, y:0, width:500, height:500};
 
 }).prototype = p = new cjs.Bitmap();
