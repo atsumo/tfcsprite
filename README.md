@@ -1,6 +1,8 @@
 tfcsprite [![Circle CI](https://circleci.com/gh/atsumo/tfcsprite.svg?style=svg)](https://circleci.com/gh/atsumo/tfcsprite)
 =========
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/atsumo/tfcsprite.svg)](https://greenkeeper.io/)
+
 Toolkit for CreateJSでパブリッシュしたの画像を読み込みをSpriteSheetに変換します。
 
 ### install
